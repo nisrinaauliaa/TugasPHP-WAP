@@ -25,8 +25,7 @@
             <div class="row mb-4">
                 <div class="col-12">
                     <h3 class="mb-4">Halo, <?= $_SESSION['name'] ?></h5>
-                    <p><a href="create.php">add item</a></p>
-                    <p><a href="logout.php">logout</a></p>
+                    <p><a href="create.php">Menambah Item</a></p>
                    
                     <h5 class="mb-4">List of Product</h5>
 
@@ -38,6 +37,7 @@
                                 <th scope="col ">Expired At</th>
                                 <th scope="col ">Created At</th>
                                 <th scope="col ">Updated At</th>
+                                <th scope="col ">User ID</th>
                                 <th scope="col ">Action</th>
                             </tr>
                         </thead>
@@ -69,6 +69,7 @@
                             <?php } ?>
                         </tbody>
                     </table>
+                    <p><a href="logout.php">Logout</a></p>
                 </div>
             </div>
         </div>
