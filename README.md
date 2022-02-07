@@ -1,2 +1,2 @@
 # TugasPHP-WAP
-Tugas PHP Nisrina Aulia Rahma
+Membuat website dengan fitur CRUD untuk mencatat inventory barang
